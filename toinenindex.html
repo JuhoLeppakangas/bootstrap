@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+
+    <!-- Tässä käytetty nav-baria bootstrapista -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="toinenindex.html">Toinen sivu</a>
+              </li>
+<!-- Tässä on 2 buttonia jotka vaihtaa teemaa-->
+              <button type="button" id="light" class="btn btn-light">Light</button>
+              <button type="button" id="dark" class="btn btn-dark">Dark</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<br><br>
+
+<!--Tässä accordion bootstrapista-->
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci autem eveniet odio dicta sunt inventore, laboriosam dolor veritatis eligendi consectetur exercitationem, facere voluptates culpa nemo ipsam asperiores est? Doloribus, saepe?
+            Voluptatem inventore necessitatibus quo nemo iure libero illum voluptatibus commodi ratione velit sit consectetur voluptates reprehenderit qui perferendis nihil, magni laudantium eveniet similique illo. Maxime corrupti ea possimus natus numquam!
+            A sed et cupiditate quibusdam neque, recusandae quas optio saepe eaque tempore quaerat sit nulla ex vitae facilis maiores aperiam modi delectus minima? Eveniet, voluptatum quibusdam repudiandae modi eaque omnis?
+            Explicabo excepturi aut soluta iusto quibusdam! Eaque debitis ad omnis temporibus aspernatur delectus numquam, velit asperiores quam tenetur saepe modi iusto mollitia veniam, eveniet quis tempore harum vel possimus nisi.
+            Tempora dicta qui neque consectetur? Numquam, aspernatur dolore. Minus impedit adipisci sed hic cum sit animi perferendis praesentium iste. Error, dolorum ipsam culpa delectus expedita excepturi itaque facilis! Molestiae, tempora.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ea blanditiis quis! Commodi quidem voluptatem officiis, delectus nihil rem quo aliquam autem dolorum, nemo vitae iste, possimus dolorem et odio.
+            Voluptas ut exercitationem, cum quasi praesentium odio adipisci laboriosam mollitia totam culpa veritatis quidem corrupti voluptatibus quod voluptates nobis dolor distinctio facilis nulla esse blanditiis quam optio unde fugiat! Voluptatibus?
+            Doloremque vel totam id nisi perferendis. Unde ducimus veniam perspiciatis cupiditate placeat non asperiores doloribus, soluta fugiat possimus. Totam quod laborum quidem consectetur atque. Earum architecto aliquam sapiente ratione fugiat.
+            Natus quasi, earum esse nihil accusamus distinctio beatae delectus, consectetur facilis quas ratione temporibus. Optio dolores dignissimos tempore asperiores voluptatibus voluptatem unde eius, autem impedit vitae ad et? Blanditiis, beatae.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda id nihil magnam dolorem ipsa officiis laborum asperiores dicta ullam, voluptatibus excepturi quaerat tempora ratione fugit sit laudantium dolorum repudiandae! Similique!
+            Praesentium maiores, molestiae officia rem earum natus itaque asperiores consectetur. Quo culpa aliquam pariatur, aperiam consequuntur dolor dicta iste nemo accusamus facere consectetur exercitationem, veritatis enim, quae vitae rem cupiditate.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
